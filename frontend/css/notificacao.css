@@ -1,0 +1,42 @@
+/* Estilo para o container de notificações */
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo para a caixinha de notificação */
+.notification {
+    background-color: #4caf50; /* Verde para sucesso */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    animation: fadeOut 3s forwards;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+/* Para erro ou mensagens customizadas */
+.notification.error {
+    background-color: #f44336; /* Vermelho para erro */
+}
+
+/* Animação para sumir após 3 segundos */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content-container h1 {
+    color: #6a1b9a; /* Tom lilás mais escuro */
+    margin-bottom: 2rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 2rem; /* Espaço entre os botões */
+    flex-wrap: wrap; /* Permite que os botões quebrem linha se necessário */
+}
+
+.square-button {
+    width: 150px; /* Definindo largura do botão */
+    height: 150px; /* Definindo altura igual para ser quadrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6a1b9a; /* Tom lilás para os botões */
+    border-color: #6a1b9a;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px; /* Leve arredondamento nas bordas */
+}
+
+.square-button:hover {
+    background-color: #4a0072; /* Cor mais escura ao passar o mouse */
+    border-color: #4a0072;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.bg-lilac {
+    background-color: #dea3e8 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #6f42c1 !important;
+}
+
+.logo-container {
+    width: 80px; /* Defina o tamanho desejado */
+    height: 80px;
+    background-color: #ffffff; /* Cor de fundo para o círculo */
+    border-radius: 50%; /* Cria o formato circular */
+    overflow: hidden; /* Garante que a imagem fique dentro do círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o círculo */
+}
+
+.nav-link {
+    color: #000000 !important;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.nav-link:hover {
+    color: #6f42c1 !important; /* Cor desejada ao passar o mouse */
+}
+
+.nav-link.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.nav-link.btn:hover {
+    background-color: #dcb7ff; /* Altere a cor de fundo ao passar o mouse */
+    color: #ffffff;
+}

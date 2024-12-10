@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: #f3e5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.075);
+    border-style:solid;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    color: #6f42c1;
+}
+
+.btn-lilac {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.bg-lilac {
+    background-color: #dea3e8 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #6f42c1 !important;
+}
+
+.logo-container {
+    width: 80px; /* Defina o tamanho desejado */
+    height: 80px;
+    background-color: #ffffff; /* Cor de fundo para o círculo */
+    border-radius: 50%; /* Cria o formato circular */
+    overflow: hidden; /* Garante que a imagem fique dentro do círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o círculo */
+}
+
+.nav-link {
+    color: #000000 !important;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.nav-link:hover {
+    color: #6f42c1 !important; /* Cor desejada ao passar o mouse */
+}
+
+.nav-link.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.nav-link.btn:hover {
+    background-color: #dcb7ff; /* Altere a cor de fundo ao passar o mouse */
+    color: #ffffff;
+}

@@ -1,0 +1,99 @@
+/* Estilos para a página de questões */
+.content-container {
+    padding: 2rem;
+    text-align: left;
+}
+
+.content-container h1 {
+    color: #6a1b9a; /* Tom lilás */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.question-container {
+    margin-bottom: 1.5rem;
+}
+
+.form-check-label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+.submit-container2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.back-button-container {
+    text-align: center; /* Centraliza o botão de "Voltar" */
+    margin-top: 2rem;
+}
+
+.back-button-container .btn {
+    background-color: #6a1b9a;
+    border-color: #6a1b9a;
+    color: white;
+}
+
+.back-button-container .btn:hover {
+    background-color: #4a0072;
+    border-color: #4a0072;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.bg-lilac {
+    background-color: #dea3e8 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #6f42c1 !important;
+}
+
+.logo-container {
+    width: 80px; /* Defina o tamanho desejado */
+    height: 80px;
+    background-color: #ffffff; /* Cor de fundo para o círculo */
+    border-radius: 50%; /* Cria o formato circular */
+    overflow: hidden; /* Garante que a imagem fique dentro do círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o círculo */
+}
+
+.nav-link {
+    color: #000000 !important;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.nav-link:hover {
+    color: #6f42c1 !important; /* Cor desejada ao passar o mouse */
+}
+
+.nav-link.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.nav-link.btn:hover {
+    background-color: #dcb7ff; /* Altere a cor de fundo ao passar o mouse */
+    color: #ffffff;
+}

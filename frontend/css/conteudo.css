@@ -1,0 +1,37 @@
+#conteudo-display {
+    max-width: 800px; /* Limita a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #ffffff; /* Fundo branco */
+    border: 1px solid #ddd; /* Bordas leves */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: justify; /* Justifica o texto */
+    font-size: 16px; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #333; /* Cor do texto */
+}
+
+.video-container {
+    margin-bottom: 20px; /* Espaçamento entre os vídeos */
+    text-align: center; /* Centraliza o vídeo */
+}
+
+#conteudo-display iframe {
+    width: 100%; /* Torna o vídeo responsivo */
+    max-width: 560px; /* Largura máxima para o vídeo */
+    height: 315px; /* Altura proporcional */
+    border-radius: 10px; /* Opcional: bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
+
+#favoritar-btn, #concluir-btn {
+    font-size: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#favoritar-btn i, #concluir-btn i {
+    font-size: 1.2rem;
+}
